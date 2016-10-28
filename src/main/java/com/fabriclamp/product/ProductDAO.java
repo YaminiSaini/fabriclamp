@@ -8,6 +8,7 @@ public interface ProductDAO {
 	public void delete(int pid);
 	
    public Product getProduct(int pid);
-   public List<Product> getAllProduct();
+   public Product getProductWithMaxId();
+   public List<Product> getAllProducts();
    
 }

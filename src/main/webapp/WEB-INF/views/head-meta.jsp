@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/references/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/references/css/outbook.css"/>
 
-<script type="text/javascript" scrc="${pageContext.request.contextPath}/resources/references/js/jquery.js"></script>
-<script type="text/javascript" scrc="${pageContext.request.contextPath}/resources/references/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/references/js/jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/references/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" scrc="${pageContext.request.contextPath}/resources/references/js/angular.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/references/js/angular.min.js"></script>

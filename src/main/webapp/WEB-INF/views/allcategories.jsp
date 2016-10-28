@@ -10,13 +10,75 @@
 <c:import url="/head-meta"/>
 
 </head>
-<body>
+
+<script type="text/javascript">
+
+	var myApp = angular.module("myApp",[]);
+
+	myApp.controller("myCtrl",function($scope)
+	{
+		$scope.search = '';
+		
+		$scope.data=${CategoryJSON};
+	});
+</script>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
 <c:import url="/head"/>
 
-All Categories
+<br><br><br><br>
 
+	<div class="container">
+	
+		<div class="row">
+		
+			<div class="col-lg-12">
+				<label style="font-size: 40px;" class="alert alert-info">All Categories</label>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-lg-12">
+				<a href="${pageContext.request.contextPath}/addcategories" class="btn btn-warning">Add Category</a>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-lg-12">
+				<input type="text" placeholder="Enter Search Key" ng-model="search" class="form-control"/>
+			</div>
+			
+		</div>
+	
+		<div class="row" ng-repeat="x in data| filter : search">
+		
+			<div class="col-lg-6">
+				<br>
+				{{x.CategoryName}}
+			</div>
+			<div class="col-lg-3">
+				<a href="${pageContext.request.contextPath}/DeleteCategoryFromDB/{{x.CategoryId}}" class="btn btn-info">Delete Category</a>
+				<br>
+					
+			</div>
+			
+			<div class="col-lg-3">
+				<a href="${pageContext.request.contextPath}/updatecategories/{{x.CategoryId}}" class="btn btn-primary">Update Category</a>
+				<br>
+					
+			</div>
+		
+			
+		</div>
+	
+	</div>
 
-	<a href="${pageContext.request.contextPath}/addcategories" class="btn btn-danger">Add Category</a>
+<br><br><br><br>
 
 </body>
 </html>

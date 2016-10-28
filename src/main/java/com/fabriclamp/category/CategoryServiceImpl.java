@@ -14,7 +14,7 @@ public class CategoryServiceImpl implements CategoryService
 	CategoryDAO cdao;
 	
 	public void insert(Category c) {
-		cdao.insert(c);;
+		cdao.insert(c);
 	}
 
 	public void update(Category c) {
@@ -32,5 +32,7 @@ public class CategoryServiceImpl implements CategoryService
 	public List<Category> getAlCategories() {
 		return cdao.getAlCategories();
 	}
+
+	
 
 }

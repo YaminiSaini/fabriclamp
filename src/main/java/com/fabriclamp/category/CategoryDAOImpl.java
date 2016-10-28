@@ -27,12 +27,12 @@ public class CategoryDAOImpl implements CategoryDAO
 
 	@Transactional
 	public void delete(int cid) {
-		sessionFactory.getCurrentSession().createQuery("delete from Category c where c.CATEGORYID = :catid").setInteger("catid", cid).executeUpdate();
+		sessionFactory.getCurrentSession().createQuery("delete from Category c where c.CategoryId = :catid").setInteger("catid", cid).executeUpdate();
 	}
 
 	@Transactional
 	public Category getCategory(int cid) {
-		List<Category> list = sessionFactory.getCurrentSession().createQuery("from Category c where c.CATEGORYID = :catid").setInteger("catid", cid).list();
+		List<Category> list = sessionFactory.getCurrentSession().createQuery("from Category c where c.CategoryId = :catid").setInteger("catid", cid).list();
 		
 		if( list.isEmpty() )
 			return null;
