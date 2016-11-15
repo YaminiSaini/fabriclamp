@@ -42,19 +42,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/images/store1.jpg" alt="Chania" width="460" height="345">
+        <img src="${pageContext.request.contextPath}/resources/images/img1.jpg" alt="Store" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="${pageContext.request.contextPath}/resources/images/lappy.jpg" alt="Chania" width="460" height="345">
+        <img src="${pageContext.request.contextPath}/resources/images/img2.jpg" alt="Gaun" width="460" height="345">
       </div>
     
       <div class="item">
-        <img src="${pageContext.request.contextPath}/resources/images/homeimage.jpg" alt="Flower" width="460" height="345">
+        <img src="${pageContext.request.contextPath}/resources/images/img3.jpg" alt="lahnga" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="${pageContext.request.contextPath}/resources/images/guitar1.jpg" alt="Flower" width="460" height="345">
+        <img src="${pageContext.request.contextPath}/resources/images/img4.jpg" alt="saree" width="460" height="345">
       </div>
     </div>
 
@@ -71,18 +71,26 @@
 </div>
 
 
+<br><br><br>
+     
+             <div class="container-wrapper">
+    <div class="container">
+    <style>
+    .font-style: centre;
+    </style>
+        <div class="group">
+                    <label for="text">The most obvious function of clothing is to improve the comfort of the wearer, by protecting the wearer from the elements. In hot climates, clothing provides protection from sunburn or wind damage, while in cold climates its thermal insulation properties are generally more important. Shelter usually reduces the functional need for clothing. For example, coats, hats, gloves, and other superficial layers are normally removed when entering a warm home, particularly if one is residing or sleeping there. Similarly, clothing has seasonal and regional aspects, so that thinner materials and fewer layers of clothing are generally worn in warmer seasons and regions than in colder ones.
 
-      <div class="form-group">
-		     <label for="text">
-		                    
-		                    
-		  A textile[1] or cloth[2] is a flexible material consisting of a network of natural or artificial fibres (yarn or thread). Yarn is produced by spinning raw fibres of wool, flax, cotton, or other material to produce long strands.[3] Textiles are formed by weaving, knitting, crocheting, knotting, or felting.
+Clothing performs a range of social and cultural functions, such as individual, occupational and gender differentiation, and social status.[6] In many societies, norms about clothing reflect standards of modesty, religion, gender, and social status. Clothing may also function as a form of adornment and an expression of personal taste or style.
 
-         The words fabric and cloth are used in textile assembly trades (such as tailoring and dressmaking) as synonyms for textile. However, there are subtle differences in these terms in specialized usage. Textile refers to any material made of interlacing fibres. Fabric refers to any material made through weaving, knitting, spreading, crocheting, or bonding that may be used in production of further goods (garments, etc.). Cloth may be used synonymously with fabric but often refers to a finished piece of fabric used for a specific purpose (e.g., table cloth). </label>
-		   
-		   </div>
-                    
-                    
+Clothing can and has in history been made from a very wide variety of materials. Materials have ranged from leather and furs, to woven materials, to elaborate and exotic natural and synthetic fabrics. Not all body coverings are regarded as clothing. Articles carried rather than worn (such as purses), worn on a single part of the body and easily removed (scarves), worn purely for adornment (jewelry), or those that serve a function other than protection (eyeglasses), are normally considered accessories rather than clothing, as are footwear and hats.
+
+Clothing protects against many things that might injure the uncovered human body. Clothes protect people from the elements, including rain, snow, wind, and other weather, as well as from the sun. However, clothing that is too sheer, thin, small, tight, etc., offers less protection. Clothes also reduce risk during activities such as work or sport. Some clothing protects from specific environmental hazards, such as insects, noxious chemicals, weather, weapons, and contact with abrasive substances. Conversely, clothing may protect the environment from the clothing wearer, as with doctors wearing medical scrubs.
+
+                    </label>
+                    </div>
+                    <br><br>
+                    <br>  
                     <br>
                     <br>
                     <br>
